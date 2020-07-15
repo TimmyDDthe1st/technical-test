@@ -1,0 +1,17 @@
+.searchResultsContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    padding: 30px;
+    flex-grow: 1;
+    object-fit: cover;
+}
